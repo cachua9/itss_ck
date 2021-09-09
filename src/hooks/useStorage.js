@@ -16,7 +16,6 @@ const useStorage = () => {
                 setIndex(idx + 1);
             }
         })
-        // setInputName("")
     };
 
     return [index, inputName, handleChange, onClick];

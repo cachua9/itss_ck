@@ -13,9 +13,10 @@ function App() {
     <div className="listStudent" >
     検索名前 :&nbsp;
     <input onChange={handleChange} />
+    <button className="myButton" onClick={onClick}>確定</button>
     </div>
     
-    <button className="myButton" onClick={onClick}>確定</button>
+    
     <div className="listStudent">検索名前: {inputName}</div>
 
     <div className="listStudent">
